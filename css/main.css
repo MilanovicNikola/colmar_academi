@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+}
+nav{
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo{
+   
+    height: 32px;
+    position: absolute;
+    left: 24px;
+}
+.colmar{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: grey;
+    position: absolute;
+    left: 40px;
+}
+.academy{
+    color: black;
+    font-size: 1.5rem;
+}
+ul{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 30rem;
+    position: absolute;
+    right: 24px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+ul li a:hover{
+    color:grey;
+}
