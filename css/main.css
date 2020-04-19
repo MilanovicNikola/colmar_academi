@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+/*navigation*/
 nav{
     height: 64px;
     display: flex;
@@ -42,4 +45,107 @@ ul li a{
 }
 ul li a:hover{
     color:grey;
+}
+
+/*banner*/
+.banner-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+    
+}
+.left-col{
+    flex-basis: 60%;
+}
+.left-col img{
+    width: 100%;
+    padding: 32px 24px;
+}
+.right-col{
+    flex-basis: 40%;
+}
+.right-col-text{
+    max-width: 80%;
+    padding: 24px;
+}
+.banner h1{
+    font-size: 2.5rem;
+    color: rgb(59, 59, 59);
+    margin: 20px 0;
+}
+.banner-text{
+    font-size: 1.5rem;
+    color: rgb(59, 59, 59);
+    margin: 20px 0;
+}
+.start-here{
+    font-size: 1.5rem;   
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 40px;
+}
+/*information section*/
+.information-main{
+    background-color: rgb(235, 235, 235);
+}
+.info-row{
+    display: flex;
+    
+   
+}
+.info-left{
+    flex-basis: 60%;
+}
+.info-left img{
+    width: 100%;
+    height: auto;
+    padding: 32px 24px;
+}
+.info-right{
+    flex-basis: 40%;
+    margin: 16px 24px;
+    border-left: rgb(214, 214, 214) solid 2px;
+}
+.info-text{
+    padding-left: 24px;
+    color: rgb(59, 59, 59);
+}
+.info-text h1{
+    font-size: 2rem;
+}
+.info-text p{
+    padding: 32px 0;
+}
+.orientation-date{
+    align-items: center;
+    
+}
+.info-right-img{
+    flex-basis: 35%;
+}
+.info-right-img img{
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    
+}
+.info-right-text{
+    flex-basis: 65%;
+    padding-left: 24px;
+    color: rgb(59, 59, 59);
+}
+.info-right-text a{
+    text-decoration: none;
+}
+.info-right-text p{
+    padding: 8px 0;
+}
+.grey{
+    background-color: rgb(214, 214, 214);
+}
+.grey img{
+    padding: 16px;
 }
