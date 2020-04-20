@@ -10,14 +10,22 @@
 <body>
     <header>
         <nav>
-            <div class="logo"><img src="images/ic-logo.svg"><span class="colmar"><span class="academy">colmar</span>academy</span></div>
-            <ul>
+            <div class="logo nav-desktop"><img src="images/ic-logo.svg"><span class="colmar"><span class="academy">colmar</span>academy</span></div>
+            <ul class="nav-desktop">
                 <li><a href="#">On campus</a></li>
                 <li><a href="#">Online</a></li>
                 <li><a href="#">For compaies</a></li>
                 <li><a href="#">Sign in</a></li>
             </ul>
+            </div class="nav-mobile">
+                <div class="logo-mobile nav-mobile"><img src="images/ic-logo.svg"></div>
+                <div class="campus nav-mobile"><img src="images/ic-on-campus.svg"></div>
+                <div class="online nav-mobile"><img src="images/ic-online.svg"></div>
+                <div class="login nav-mobile"><img src="images/ic-login.svg"></div>
+            </div>
         </nav>
+
+    
     </header>
     <main>
         <!--Banner-->
@@ -28,7 +36,7 @@
                 </div>
                 <div class="right-col">
                     <div class="right-col-text">
-                        <h1>learn something <br>new everyday</h1>
+                        <h1>Learn something <br>new everyday</h1>
                         <p class="banner-text">Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
                         <p class="start-here"><a href="#"></a>Start here</p>
                     </div>
@@ -53,7 +61,8 @@
                 <div class="info-right">
                     <div class="orientation-date info-row">
                         <div class="info-right-img">
-                            <img src="images/information-orientation.jpg">
+                            <img class="desktop-img" src="images/information-orientation.jpg">
+                            <img class="mobile-img" src="images/information-orientation-mobile.jpg">
                         </div>
                         <div class="info-right-text">
                             <h3>Orientation date</h3>
@@ -64,7 +73,8 @@
                     <hr>
                     <div class="orientation-date info-row">
                         <div class="info-right-img">
-                            <img src="images/information-campus.jpg">
+                            <img class="desktop-img" src="images/information-campus.jpg">
+                            <img class="mobile-img" src="images/information-campus-mobile.jpg">
                         </div>
                         <div class="info-right-text">
                             <h3>Our campus</h3>
@@ -74,7 +84,8 @@
                     </div>
                     <div class="orientation-date info-row grey">
                         <div class="info-right-img">
-                            <img src="images/information-guest-lecture.jpg">
+                            <img class="desktop-img" src="images/information-guest-lecture.jpg">
+                            <img class="mobile-img" src="images/information-guest-lecture-mobile.jpg">
                         </div>
                         <div class="info-right-text">
                             <h3>Our guest lecture</h3>
@@ -88,6 +99,7 @@
                 </div>
 
             </div>
+            <hr class="desktop-hidden">
         </section>
         <!--Start learning-->
         <section>
@@ -101,7 +113,7 @@
                         <div class="learning-div-text">
                             <h3>Software engeneering</h3>
                             <h3 class="courses">Courses</h3>
-                            <p>Web Development, Mobile<br>Development, iOT, APIs</p>
+                            <p class="hide">Web Development, Mobile<br>Development, iOT, APIs</p>
                         </div>
                     </div>
 
@@ -112,7 +124,7 @@
                         <div class="learning-div-text">
                             <h3>Computer Art</h3>
                             <h3 class="courses">Courses</h3>
-                            <p>Imagigng & Design, Web Design, <br>
+                            <p class="hide">Imagigng & Design, Web Design, <br>
                                 Motion Graphics & Visual Effects, <br>
                                 Computer Animation
                         </p>
@@ -125,7 +137,7 @@
                         <div class="learning-div-text">
                             <h3>Design</h3>
                             <h3 class="courses">Courses</h3>
-                            <p>User Expiriance Design, User <br>
+                            <p class="hide">User Expiriance Design, User <br>
                             Research, Visual Design</p>
                         </div>
                     </div>
@@ -139,7 +151,7 @@
                     <div class="learning-div-text">
                         <h3>Data</h3>
                         <h3 class="courses">Courses</h3>
-                        <p>Data Science, Big Data, SQL, Data<br>
+                        <p class="hide">Data Science, Big Data, SQL, Data<br>
                             Visualization></p>
                     </div>
                 </div>
@@ -151,7 +163,7 @@
                     <div class="learning-div-text">
                         <h3>Business</h3>
                         <h3 class="courses">Courses</h3>
-                        <p>Product Development, Business <br>
+                        <p class="hide">Product Development, Business <br>
                             Development, Startup 
                     </p>
                     </div>
@@ -163,13 +175,13 @@
                     <div class="learning-div-text">
                         <h3>Marketing</h3>
                         <h3 class="courses">Courses</h3>
-                        <p>Analytics, Content Marketing, <br>
+                        <p class="hide">Analytics, Content Marketing, <br>
                         Mobile Marketing</p>
                     </div>
                 </div>
             </div>
             </div>
-        
+        <hr class="desktop-hidden">
         </section>
         <!--Thesis exhibit-->
         <section>
@@ -183,13 +195,13 @@
                             type="video/mp4">
                         </video>
                     </div>
-                    <div class="vid-text">
+                    <div class="vid-text hide">
                         <h3>Reimagine urban</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deleniti at nihil ratione maiores nisi dolorum exercitationem voluptates corporis aut numquam illum, 
                             maxime modi nesciunt et amet id labore asperiores?</p>
                     </div>
                 </div>
-                <div class="right-col">
+                <div class="right-col hide">
                     <div class="fisma cont-row">
                         <div class="fisma-img">
                              <img src="images/thesis-fisma.jpg">
@@ -222,7 +234,7 @@
         <div class="copyright">
             <p>&copy2016 Colmar Academy.All rights reserved</p>
         </div>
-        <div class="term cont-row">
+        <div class="term cont-row hide">
         <div class="rigt-terms">
             <p><a href="#">Terms</a></p>
         </div>
