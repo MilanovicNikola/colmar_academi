@@ -149,3 +149,176 @@ ul li a:hover{
 .grey img{
     padding: 16px;
 }
+/* Start Learing*/
+.container{
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+}
+.container h1{
+    padding: 32px 0;
+    color: rgb(59, 59, 59);
+    font-size: 1.5rem;
+}
+.learning{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    max-width: 100%;
+    margin-right: 72px;
+    
+}
+.learning-second{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    max-width: 100%;
+    margin-right: 72px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+.learning-div{
+   padding-left: 32px;
+   flex-basis: 33%;
+}
+.learning-div img{
+    width: 100%;
+    height: auto;
+}
+.learning-div-img{
+    background-color: white;
+}
+.learning-div-text{
+    background-color: white;
+    text-align: start;
+    padding-left: 16px;
+    height: 43%;
+}
+.learning-div-text h3{
+    padding-top: 16px;
+    color: rgb(59, 59, 59);
+}
+.learning-div-text p{
+    padding-bottom: 24px;
+    line-height: 30px;
+    color: rgb(59, 59, 59);
+}
+.courses{
+    padding: 8px 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgb(59, 59, 59);
+}
+/*Thesis exhibit*/
+.container-thesis{
+    background-color: rgb(235, 235, 235);
+}
+.container-thesis h3{
+    text-align: center;
+    padding-top: 32px;
+    color: rgb(59, 59, 59);
+    font-size: 1.5rem;
+}
+.cont-row{
+    display: flex;
+}
+.vid{
+    flex-basis: 60%;
+    padding-left: 78px;
+    padding-top: 32px;
+}
+.right-col{
+    flex-basis: 40%;
+}
+.vid video{
+    width: 100%;
+}
+.vid-text{
+    text-align: start;
+}
+.vid-text h3{
+    padding-top: 24px;
+}
+.vid-text p{
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+.fisma{
+    margin-top: 32px;
+    margin-left: 24px;
+    background-color: rgb(214, 214, 214);
+}
+.fisma-img{
+    flex-basis: 35%;
+    height: auto;
+}
+.fisma img{
+    padding: 16px;
+    width: 100%;
+}.fisma-text{
+    flex-basis: 65%;
+    width: 100%;
+    padding-left: 16px;
+    margin-top: 40px;
+    line-height: 25px; 
+}
+.fisma-text p{
+    color: rgb(59, 59, 59);
+    padding-top: 16px;
+}
+.fisma-text h3{
+    color: rgb(59, 59, 59);
+}
+.now-then{
+    padding-left: 24px;
+}
+.now-then img{
+    padding:16px;
+    width: 100%;
+}
+.now-then-img{
+    flex-basis: 35%;
+    height: auto;
+}
+.now-then-text{
+    flex-basis: 65%;
+    padding-left: 16px;
+    margin-top: 70px;
+    line-height: 25px;
+}
+.now-then-text h3{
+    color: rgb(59, 59, 59);
+}
+.now-then-text p{
+    color: rgb(59, 59, 59);
+    padding-top: 16px;
+}
+/*footer*/
+footer{
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+}
+.copyright{
+    padding: 16px 24px;
+}
+.term{
+
+    padding: 16px 24px;
+}
+    
+
+.rigt-terms a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    
+}
+.right-privacy a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    
+
+}
+
+footer p{
+    padding: 10px;
+}
